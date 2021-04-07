@@ -38,7 +38,7 @@ CREATE TABLE `admin_analytics_usage_version_log` (
 LOCK TABLES `admin_analytics_usage_version_log` WRITE;
 /*!40000 ALTER TABLE `admin_analytics_usage_version_log` DISABLE KEYS */;
 INSERT INTO `admin_analytics_usage_version_log` VALUES (1,'2.4.1');
-/*!40000 ALTER TABLE `admin_analytics_usage_version_log` ENABLE KEY*/;
+/*!40000 ALTER TABLE `admin_analytics_usage_version_log` ENABLE KEYS*/;
 UNLOCK TABLES;
 
 --
