@@ -30,7 +30,7 @@ services:
     image: percona:5.7
     command: --max_allowed_packet=64M
     ports:
-      - "3306:3306"
+      - "3306"
     env_file: env/db.env
     volumes:
       - dbdata:/var/lib/mysql
