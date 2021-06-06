@@ -9,6 +9,6 @@ bin/start
 
 Admin page: magento.test/admin
 
-username: admin
+username: huydoan
 
-password: admin@123
+password: Cl12122610
